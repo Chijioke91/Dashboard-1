@@ -8,8 +8,12 @@ module.exports = {
         mainRight: '#F9FAFC',
       },
       spacing: {
+        17: '4.7rem',
         dashHt: '56.25rem',
         mainHt: '53.75rem',
+      },
+      fontFamily: {
+        body: ['Poppins'],
       },
     },
   },
