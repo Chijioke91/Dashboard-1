@@ -10,7 +10,7 @@ const todayExpenses = [
     location: 'Belanja di pascar',
     price: 326.8,
     icon: cartIcon,
-    iconBackgroundColor: '#32a7e2',
+    iconBackgroundColor: 'bg-grocery',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const todayExpenses = [
     location: 'Naik bus umum',
     price: 15.0,
     icon: transportIcon,
-    iconBackgroundColor: '#B548C6',
+    iconBackgroundColor: 'bg-transport',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const todayExpenses = [
     location: 'Bayar Listrik',
     price: 185.75,
     icon: houseIcon,
-    iconBackgroundColor: '#FF8700',
+    iconBackgroundColor: 'bg-housing',
   },
 ];
 
@@ -40,7 +40,7 @@ const previousExpenses = [
     location: 'Makan Steak',
     price: 156.0,
     icon: cartIcon,
-    iconBackgroundColor: '#DC3434',
+    iconBackgroundColor: 'bg-grocery',
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const previousExpenses = [
     location: 'Nonton Bioskop',
     price: 35.2,
     icon: transportIcon,
-    iconBackgroundColor: '#4BA83D',
+    iconBackgroundColor: 'bg-entertainment',
   },
 ];
 

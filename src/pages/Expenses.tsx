@@ -1,16 +1,12 @@
+import AbsoluteMain from '../components/AbsoluteMain';
 import MainContent from '../components/main/MainContent';
-import Sidebar from '../components/sidebar/Sidebar';
 
 const Expenses = () => {
   return (
     <div className="flex text-gray-200 min-h-screen h-screen">
-      {/* Side bar */}
-
-      <Sidebar />
-
-      {/* Main Content */}
-
-      <MainContent />
+      <AbsoluteMain>
+        <MainContent />
+      </AbsoluteMain>
     </div>
   );
 };

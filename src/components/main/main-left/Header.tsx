@@ -2,6 +2,7 @@ import p1 from '../../../assets/png/p1.png';
 import p2 from '../../../assets/png/p2.png';
 import p3 from '../../../assets/png/p3.png';
 import add from '../../../assets/png/plus.png';
+import Tippy from '@tippy.js/react';
 
 const Header = () => {
   return (
@@ -14,16 +15,22 @@ const Header = () => {
         </p>
       </div>
       {/* people and plus sign */}
-      <div className="flex items-center space-x-3 ">
+      <div className="flex items-center space-x-3 cursor-pointer">
         <div className="flex -space-x-1">
           <div className="h-9 w-9 rounded-full overflow-hidden z-30">
-            <img src={p1} alt="person 1" />
+            <Tippy content="Jackie">
+              <img src={p1} alt="person 1" />
+            </Tippy>
           </div>
           <div className="h-9 w-9 rounded-full overflow-hidden z-20">
-            <img src={p2} alt="person 2" />
+            <Tippy content="Jack">
+              <img src={p2} alt="person 2" />
+            </Tippy>
           </div>
           <div className="h-9 w-9 rounded-full overflow-hidden z-10">
-            <img src={p3} alt="person 3" />
+            <Tippy content="Jane">
+              <img src={p3} alt="person 3" />
+            </Tippy>
           </div>
         </div>
         <div className="h-7 w-7 flex items-center justify-center border-2 rounded-full">
