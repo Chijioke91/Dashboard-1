@@ -4,7 +4,7 @@ import Expenses from './pages/Expenses';
 
 const App = () => {
   return (
-    <div className="bg-dashBg min-h-screen p-5 text-white overflow-hidden font-body">
+    <div className="bg-[#101010] text-white font-body p-5">
       <Switch>
         <Route exact path="/" component={Dashboard} />
         <Route exact path="/expenses" component={Expenses} />

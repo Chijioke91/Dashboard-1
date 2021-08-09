@@ -10,7 +10,7 @@ const Header = () => {
       {/* title*/}
       <div className="space-y-4">
         <h1 className="text-5xl font-semibold">Expenses</h1>
-        <p className="text-lg text-gray-400 font-normal tracking-wider">
+        <p className="text-lg text-gray-400 font-normal tracking-wider mb-12">
           01 -25 March, 2020
         </p>
       </div>

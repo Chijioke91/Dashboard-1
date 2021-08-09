@@ -7,7 +7,7 @@ const MainContent = () => {
         <MainLeft />
       </div>
 
-      <div className="w-1/3 bg-mainRight">Right</div>
+      <div className="w-1/3 bg-[#F9FAFC]">Right</div>
     </main>
   );
 };

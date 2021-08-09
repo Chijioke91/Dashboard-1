@@ -1,8 +1,20 @@
 import cartIcon from '../assets/svg/cartIcon.svg';
 import transportIcon from '../assets/svg/transportIcon.svg';
 import houseIcon from '../assets/svg/houseIcon.svg';
+import playIcon from '../assets/svg/play.svg';
+import plateIcon from '../assets/svg/plate.svg';
 
-const todayExpenses = [
+export type Expense = {
+  id: number;
+  expense: string;
+  time: string;
+  location: string;
+  price: number;
+  icon: string;
+  iconBackgroundColor: string;
+}[];
+
+const todayExpenses: Expense = [
   {
     id: 1,
     expense: 'Grocery',
@@ -10,7 +22,7 @@ const todayExpenses = [
     location: 'Belanja di pascar',
     price: 326.8,
     icon: cartIcon,
-    iconBackgroundColor: 'bg-grocery',
+    iconBackgroundColor: 'bg-[#32A7E2]',
   },
   {
     id: 2,
@@ -19,7 +31,7 @@ const todayExpenses = [
     location: 'Naik bus umum',
     price: 15.0,
     icon: transportIcon,
-    iconBackgroundColor: 'bg-transport',
+    iconBackgroundColor: 'bg-[#B548C6]',
   },
   {
     id: 3,
@@ -28,19 +40,19 @@ const todayExpenses = [
     location: 'Bayar Listrik',
     price: 185.75,
     icon: houseIcon,
-    iconBackgroundColor: 'bg-housing',
+    iconBackgroundColor: 'bg-[#FF8700]',
   },
 ];
 
-const previousExpenses = [
+const previousExpenses: Expense = [
   {
     id: 1,
     expense: 'Food and Drink',
     time: '5:12 pm',
     location: 'Makan Steak',
     price: 156.0,
-    icon: cartIcon,
-    iconBackgroundColor: 'bg-grocery',
+    icon: plateIcon,
+    iconBackgroundColor: 'bg-[#DC3434]',
   },
   {
     id: 2,
@@ -48,8 +60,8 @@ const previousExpenses = [
     time: '5:12 pm',
     location: 'Nonton Bioskop',
     price: 35.2,
-    icon: transportIcon,
-    iconBackgroundColor: 'bg-entertainment',
+    icon: playIcon,
+    iconBackgroundColor: 'bg-[#4BA83D]',
   },
 ];
 
