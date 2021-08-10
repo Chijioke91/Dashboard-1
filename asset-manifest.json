@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dashboard-1/static/css/main.64b6b9dc.chunk.css",
+    "main.js": "/Dashboard-1/static/js/main.b97595ef.chunk.js",
+    "main.js.map": "/Dashboard-1/static/js/main.b97595ef.chunk.js.map",
+    "runtime-main.js": "/Dashboard-1/static/js/runtime-main.f72198b9.js",
+    "runtime-main.js.map": "/Dashboard-1/static/js/runtime-main.f72198b9.js.map",
+    "static/js/2.ddbac4fd.chunk.js": "/Dashboard-1/static/js/2.ddbac4fd.chunk.js",
+    "static/js/2.ddbac4fd.chunk.js.map": "/Dashboard-1/static/js/2.ddbac4fd.chunk.js.map",
+    "index.html": "/Dashboard-1/index.html",
+    "static/css/main.64b6b9dc.chunk.css.map": "/Dashboard-1/static/css/main.64b6b9dc.chunk.css.map",
+    "static/js/2.ddbac4fd.chunk.js.LICENSE.txt": "/Dashboard-1/static/js/2.ddbac4fd.chunk.js.LICENSE.txt",
+    "static/media/cartIcon.04714697.svg": "/Dashboard-1/static/media/cartIcon.04714697.svg",
+    "static/media/houseIcon.da02fe38.svg": "/Dashboard-1/static/media/houseIcon.da02fe38.svg",
+    "static/media/plate.0bb114fe.svg": "/Dashboard-1/static/media/plate.0bb114fe.svg",
+    "static/media/play.fc539f66.svg": "/Dashboard-1/static/media/play.fc539f66.svg",
+    "static/media/transportIcon.442d2bdd.svg": "/Dashboard-1/static/media/transportIcon.442d2bdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f72198b9.js",
+    "static/js/2.ddbac4fd.chunk.js",
+    "static/css/main.64b6b9dc.chunk.css",
+    "static/js/main.b97595ef.chunk.js"
+  ]
+}
