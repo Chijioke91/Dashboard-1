@@ -13,7 +13,7 @@ const Nav = () => {
   const location = useLocation();
 
   return (
-    <ul className="mb-48 space-y-10">
+    <ul className="mb-[184px] mt-[117px] space-y-10">
       {navLinks.map((navLink) => (
         <li
           key={navLink.text}

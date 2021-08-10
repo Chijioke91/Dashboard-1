@@ -6,12 +6,12 @@ const ExpensesDefault = () => {
   return (
     <>
       {/* Today */}
-      <div className="mt-12 mb-14">
+      <div className="mt-[47px] mb-[59px]">
         <ExpenseHeader title="Today" />
         <ShowExpense expenses={todayExpenses} />
       </div>
       {/* previous */}
-      <div className="mt-12 mb-14">
+      <div className="my-[59px]">
         <ExpenseHeader title="Monday, 23 March 2020" />
         <ShowExpense expenses={previousExpenses} />
       </div>

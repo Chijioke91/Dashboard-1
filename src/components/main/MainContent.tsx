@@ -1,4 +1,5 @@
 import MainLeft from './main-left';
+import MainRight from './main-right';
 
 const MainContent = () => {
   return (
@@ -7,7 +8,9 @@ const MainContent = () => {
         <MainLeft />
       </div>
 
-      <div className="w-1/3 bg-[#F9FAFC]">Right</div>
+      <div className="w-1/3 bg-[#F9FAFC]">
+        <MainRight />
+      </div>
     </main>
   );
 };

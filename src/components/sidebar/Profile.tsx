@@ -3,7 +3,7 @@ import Samantha from '../../assets/png/samantha.png';
 const Profile = () => {
   return (
     <>
-      <div className="space-y-2 flex flex-col mb-32 mt-11">
+      <div className="space-y-2 flex flex-col mt-11">
         <div className="relative w-17 h-17">
           <img src={Samantha} alt="Samantha Pics" />
           <p className="absolute -right-4 -top-1 flex items-center justify-center bg-red-600 w-7 h-7  text-white rounded-full">
