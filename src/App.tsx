@@ -10,7 +10,7 @@ import Wallets from './pages/Wallets';
 const App = () => {
   useEffect(() => {
     alert(
-      'Please note that the actual design was done for a mac-book bro. please switch your browser to a 1440 x 900'
+      'Please note that the actual design was done for a mac-book bro. please switch your browser to a 1440 x 900. Also the original design can be found here: https://www.figma.com/community/file/977500202909795677'
     );
   }, []);
 
